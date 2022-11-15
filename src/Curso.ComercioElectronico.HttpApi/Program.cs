@@ -50,7 +50,7 @@ builder.Services.AddSwaggerGen(c =>
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
                 {
                     {
-                          new OpenApiSecurityScheme
+                        new OpenApiSecurityScheme
                             {
                                 Reference = new OpenApiReference
                                 {

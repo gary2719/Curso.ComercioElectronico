@@ -1,4 +1,4 @@
-namespace Curso.ComercioElectronico.HttpApi;
+namespace Curso.ComercioElectronico.HttpApi.Controllers;
 
 using Curso.ComercioElectronico.Application;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
     [ApiController]
     public class CarritoController : ControllerBase
     {
-         private readonly ICarritoAppService carritoAppService;
+        private readonly ICarritoAppService carritoAppService;
 
     public CarritoController(ICarritoAppService carritoAppService)
     {
@@ -41,8 +41,8 @@ using Microsoft.AspNetCore.Mvc;
     [HttpPost("Cancelar_CarritoCompras")]
 
     public async Task CancelarCarrito(CancelarCarritoDto cancelarCarritoDto, Guid id){
-       
-       await carritoAppService.CancelarCarrito(cancelarCarritoDto,id);
+    
+    await carritoAppService.CancelarCarrito(cancelarCarritoDto,id);
     }
 }
 

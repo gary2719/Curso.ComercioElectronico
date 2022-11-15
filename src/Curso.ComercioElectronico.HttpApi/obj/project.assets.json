@@ -2273,19 +2273,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/garytorres/.nuget/packages/": {}
+    "C:\\Users\\gtorresh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.HttpApi/Curso.ComercioElectronico.HttpApi.csproj",
+      "projectUniqueName": "C:\\Users\\gtorresh\\OneDrive - Banco Pichincha C.A\\Escritorio\\Curso.ComercioElectronico1\\Curso.ComercioElectronico\\src\\Curso.ComercioElectronico.HttpApi\\Curso.ComercioElectronico.HttpApi.csproj",
       "projectName": "Curso.ComercioElectronico.HttpApi",
-      "projectPath": "/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.HttpApi/Curso.ComercioElectronico.HttpApi.csproj",
-      "packagesPath": "/Users/garytorres/.nuget/packages/",
-      "outputPath": "/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.HttpApi/obj/",
+      "projectPath": "C:\\Users\\gtorresh\\OneDrive - Banco Pichincha C.A\\Escritorio\\Curso.ComercioElectronico1\\Curso.ComercioElectronico\\src\\Curso.ComercioElectronico.HttpApi\\Curso.ComercioElectronico.HttpApi.csproj",
+      "packagesPath": "C:\\Users\\gtorresh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gtorresh\\OneDrive - Banco Pichincha C.A\\Escritorio\\Curso.ComercioElectronico1\\Curso.ComercioElectronico\\src\\Curso.ComercioElectronico.HttpApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/garytorres/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\gtorresh\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2297,14 +2297,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/Curso.ComercioElectronico.Application.csproj": {
-              "projectPath": "/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/Curso.ComercioElectronico.Application.csproj"
+            "C:\\Users\\gtorresh\\OneDrive - Banco Pichincha C.A\\Escritorio\\Curso.ComercioElectronico1\\Curso.ComercioElectronico\\src\\Curso.ComercioElectronico.Application\\Curso.ComercioElectronico.Application.csproj": {
+              "projectPath": "C:\\Users\\gtorresh\\OneDrive - Banco Pichincha C.A\\Escritorio\\Curso.ComercioElectronico1\\Curso.ComercioElectronico\\src\\Curso.ComercioElectronico.Application\\Curso.ComercioElectronico.Application.csproj"
             },
-            "/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Domain/Curso.ComercioElectronico.Domain.csproj": {
-              "projectPath": "/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Domain/Curso.ComercioElectronico.Domain.csproj"
+            "C:\\Users\\gtorresh\\OneDrive - Banco Pichincha C.A\\Escritorio\\Curso.ComercioElectronico1\\Curso.ComercioElectronico\\src\\Curso.ComercioElectronico.Domain\\Curso.ComercioElectronico.Domain.csproj": {
+              "projectPath": "C:\\Users\\gtorresh\\OneDrive - Banco Pichincha C.A\\Escritorio\\Curso.ComercioElectronico1\\Curso.ComercioElectronico\\src\\Curso.ComercioElectronico.Domain\\Curso.ComercioElectronico.Domain.csproj"
             },
-            "/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Infraestructure/Curso.ComercioElectronico.Infraestructure.csproj": {
-              "projectPath": "/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Infraestructure/Curso.ComercioElectronico.Infraestructure.csproj"
+            "C:\\Users\\gtorresh\\OneDrive - Banco Pichincha C.A\\Escritorio\\Curso.ComercioElectronico1\\Curso.ComercioElectronico\\src\\Curso.ComercioElectronico.Infraestructure\\Curso.ComercioElectronico.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\gtorresh\\OneDrive - Banco Pichincha C.A\\Escritorio\\Curso.ComercioElectronico1\\Curso.ComercioElectronico\\src\\Curso.ComercioElectronico.Infraestructure\\Curso.ComercioElectronico.Infraestructure.csproj"
             }
           }
         }
@@ -2342,8 +2342,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -2355,7 +2354,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 [ApiController]
     public class MarcaController : ControllerBase
     {
-     private readonly IMarcaAppService marcaAppService;
+    private readonly IMarcaAppService marcaAppService;
 
     public MarcaController(IMarcaAppService marcaAppService)
     {

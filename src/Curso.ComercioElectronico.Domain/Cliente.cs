@@ -21,6 +21,7 @@ public class Cliente
     public string TipoCliente { get; set; }
 
     public string Direccion { get; set; }
+    public int NumeroTelefonico {get; set;}
 
 
 }

@@ -12,7 +12,7 @@ public class TipoProductoRepository : EfRepository<TipoProducto,Guid>, ITipoProd
 public async Task<bool> ExisteNombre(string nombre) {
 
         var resultado = await this._context.Set<TipoProducto>()
-                       .AnyAsync(x => x.NombreTipoProducto.ToUpper() == nombre.ToUpper());
+                    .AnyAsync(x => x.NombreTipoProducto.ToUpper() == nombre.ToUpper());
 
         return resultado;
     }

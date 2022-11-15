@@ -21,5 +21,5 @@ public class ClienteDto
     [StringLength(DominioConstantes.MAXIMO_NOMBRE)]
     public string NombreCliente { get; set; }
     public string Direccion { get; set; }
-
+    public int NumeroTelefonico {get; set;}
 }

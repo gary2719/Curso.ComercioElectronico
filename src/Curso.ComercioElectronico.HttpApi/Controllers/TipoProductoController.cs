@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
     [ApiController]
     public class TipoProductoController : ControllerBase
     {
-     private readonly ITipoProductoAppService tipoProductoAppService;
+    private readonly ITipoProductoAppService tipoProductoAppService;
 
     public TipoProductoController(ITipoProductoAppService tipoProductoAppService)
     {

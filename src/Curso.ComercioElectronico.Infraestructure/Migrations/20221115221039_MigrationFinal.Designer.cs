@@ -11,13 +11,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Curso.ComercioElectronico.Infraestructure.Migrations
 {
     [DbContext(typeof(ComercioElectronicoDbContext))]
-    [Migration("20221114010839_MigrationCarritoModel")]
-    partial class MigrationCarritoModel
+    [Migration("20221115221039_MigrationFinal")]
+    partial class MigrationFinal
     {
+        /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "6.0.10");
+            modelBuilder.HasAnnotation("ProductVersion", "7.0.0");
 
             modelBuilder.Entity("Curso.ComercioElectronico.Domain.Carrito", b =>
                 {
@@ -92,10 +93,17 @@ namespace Curso.ComercioElectronico.Infraestructure.Migrations
                         .HasMaxLength(10)
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("NombreCliente")
                         .IsRequired()
                         .HasMaxLength(80)
                         .HasColumnType("TEXT");
+
+                    b.Property<int>("NumeroTelefonico")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("TipoCliente")
                         .IsRequired()

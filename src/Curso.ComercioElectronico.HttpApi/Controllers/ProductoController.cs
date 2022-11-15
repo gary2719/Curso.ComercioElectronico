@@ -1,4 +1,4 @@
-namespace Curso.ComercioElectronico.HttpApi;
+namespace Curso.ComercioElectronico.HttpApi.Controllers;
 
 using Curso.ComercioElectronico.Application;
 using Microsoft.AspNetCore.Mvc;

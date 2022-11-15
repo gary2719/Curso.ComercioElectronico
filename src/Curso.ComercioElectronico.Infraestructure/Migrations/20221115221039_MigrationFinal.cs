@@ -5,16 +5,53 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Curso.ComercioElectronico.Infraestructure.Migrations
 {
-    public partial class MigrationCarritoModel : Migration
+    /// <inheritdoc />
+    public partial class MigrationFinal : Migration
     {
+        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<string>(
-                name: "TipoCliente",
-                table: "Clientes",
-                type: "TEXT",
-                nullable: false,
-                defaultValue: "");
+            migrationBuilder.CreateTable(
+                name: "Clientes",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "TEXT", nullable: false),
+                    CedulaCliente = table.Column<string>(type: "TEXT", maxLength: 10, nullable: false),
+                    NombreCliente = table.Column<string>(type: "TEXT", maxLength: 80, nullable: false),
+                    TipoCliente = table.Column<string>(type: "TEXT", nullable: false),
+                    Direccion = table.Column<string>(type: "TEXT", nullable: false),
+                    NumeroTelefonico = table.Column<int>(type: "INTEGER", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Clientes", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Marcas",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "TEXT", nullable: false),
+                    NombreMarca = table.Column<string>(type: "TEXT", maxLength: 80, nullable: false),
+                    Descripcion = table.Column<string>(type: "TEXT", maxLength: 80, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Marcas", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "TipoProductos",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "TEXT", nullable: false),
+                    NombreTipoProducto = table.Column<string>(type: "TEXT", maxLength: 80, nullable: false),
+                    DescripcionTipoProducto = table.Column<string>(type: "TEXT", maxLength: 80, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TipoProductos", x => x.Id);
+                });
 
             migrationBuilder.CreateTable(
                 name: "Carritos",
@@ -40,29 +77,30 @@ namespace Curso.ComercioElectronico.Infraestructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "CarritoItems",
+                name: "Productos",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "TEXT", nullable: false),
-                    ProductoId = table.Column<Guid>(type: "TEXT", nullable: false),
-                    CarritoId = table.Column<Guid>(type: "TEXT", nullable: false),
-                    Cantidad = table.Column<long>(type: "INTEGER", nullable: false),
-                    Precio = table.Column<decimal>(type: "TEXT", nullable: false),
-                    Observaciones = table.Column<string>(type: "TEXT", nullable: true)
+                    NombreProducto = table.Column<string>(type: "TEXT", maxLength: 80, nullable: false),
+                    PrecioProducto = table.Column<decimal>(type: "TEXT", nullable: false),
+                    CodigoProducto = table.Column<string>(type: "TEXT", maxLength: 20, nullable: false),
+                    DescripcionProducto = table.Column<string>(type: "TEXT", maxLength: 80, nullable: false),
+                    MarcaId = table.Column<Guid>(type: "TEXT", nullable: false),
+                    TipoProductoId = table.Column<Guid>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_CarritoItems", x => x.Id);
+                    table.PrimaryKey("PK_Productos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_CarritoItems_Carritos_CarritoId",
-                        column: x => x.CarritoId,
-                        principalTable: "Carritos",
+                        name: "FK_Productos_Marcas_MarcaId",
+                        column: x => x.MarcaId,
+                        principalTable: "Marcas",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_CarritoItems_Productos_ProductoId",
-                        column: x => x.ProductoId,
-                        principalTable: "Productos",
+                        name: "FK_Productos_TipoProductos_TipoProductoId",
+                        column: x => x.TipoProductoId,
+                        principalTable: "TipoProductos",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -94,6 +132,34 @@ namespace Curso.ComercioElectronico.Infraestructure.Migrations
                         name: "FK_Ordenes_Clientes_ClienteId",
                         column: x => x.ClienteId,
                         principalTable: "Clientes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "CarritoItems",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "TEXT", nullable: false),
+                    ProductoId = table.Column<Guid>(type: "TEXT", nullable: false),
+                    CarritoId = table.Column<Guid>(type: "TEXT", nullable: false),
+                    Cantidad = table.Column<long>(type: "INTEGER", nullable: false),
+                    Precio = table.Column<decimal>(type: "TEXT", nullable: false),
+                    Observaciones = table.Column<string>(type: "TEXT", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_CarritoItems", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_CarritoItems_Carritos_CarritoId",
+                        column: x => x.CarritoId,
+                        principalTable: "Carritos",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_CarritoItems_Productos_ProductoId",
+                        column: x => x.ProductoId,
+                        principalTable: "Productos",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -199,8 +265,19 @@ namespace Curso.ComercioElectronico.Infraestructure.Migrations
                 name: "IX_OrdenItems_ProductoId",
                 table: "OrdenItems",
                 column: "ProductoId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Productos_MarcaId",
+                table: "Productos",
+                column: "MarcaId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Productos_TipoProductoId",
+                table: "Productos",
+                column: "TipoProductoId");
         }
 
+        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
@@ -216,11 +293,19 @@ namespace Curso.ComercioElectronico.Infraestructure.Migrations
                 name: "Ordenes");
 
             migrationBuilder.DropTable(
+                name: "Productos");
+
+            migrationBuilder.DropTable(
                 name: "Carritos");
 
-            migrationBuilder.DropColumn(
-                name: "TipoCliente",
-                table: "Clientes");
+            migrationBuilder.DropTable(
+                name: "Marcas");
+
+            migrationBuilder.DropTable(
+                name: "TipoProductos");
+
+            migrationBuilder.DropTable(
+                name: "Clientes");
         }
     }
 }

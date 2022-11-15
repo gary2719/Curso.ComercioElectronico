@@ -8,7 +8,7 @@ using Curso.ComercioElectronico.HttpApi;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-namespace Curso.ComercioElectronico.HttpApi;
+namespace Curso.ComercioElectronico.HttpApi.Controllers;
 
 using Microsoft.AspNetCore.Mvc;
 

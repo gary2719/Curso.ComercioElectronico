@@ -24,7 +24,7 @@ public class TipoProductoAppservice : ITipoProductoAppService
     {
         var existeNombreTipoProducto = await repository.ExisteNombre(tipoProductoCreateUpdateDto.NombreTipoProducto);
         if (existeNombreTipoProducto){
-            throw new ArgumentException($"Ya existe un tipo de producto con el nombre {tipoProductoCreateUpdateDto.NombreTipoProducto}");
+            throw new ArgumentException($"Ya existe un tipo con el nombre {tipoProductoCreateUpdateDto.NombreTipoProducto}");
         
     }
          var tipoProducto = mapper.Map<TipoProducto>(tipoProductoCreateUpdateDto);
@@ -41,7 +41,7 @@ public class TipoProductoAppservice : ITipoProductoAppService
     {
        var tipoProducto = await repository.GetByIdAsync(tipoProductoId);
         if (tipoProducto == null){
-            throw new ArgumentException($"El tipo de producto con el id: {tipoProductoId}, no existe");
+            throw new ArgumentException($"El tipo de producto con el id: {tipoProductoId} no se encuentra registrado");
         }
 
         repository.Delete(tipoProducto);
@@ -52,13 +52,13 @@ public class TipoProductoAppservice : ITipoProductoAppService
 
     public ICollection<TipoProductoDto> GetAll()
     {
-       var tipoProductoList = repository.GetAll();
+    var tipoProductoList = repository.GetAll();
 
-        var tipoProductoListDto =  from t in tipoProductoList
+        var tipoProductoListDto =  from p in tipoProductoList
                             select new TipoProductoDto(
-                             t.Id,
-                             t.NombreTipoProducto,
-                             t.DescripcionTipoProducto
+                            p.Id,
+                            p.NombreTipoProducto,
+                            p.DescripcionTipoProducto
                             );
 
         return tipoProductoListDto.ToList();
@@ -66,12 +66,12 @@ public class TipoProductoAppservice : ITipoProductoAppService
 
     public async Task<TipoProductoDto> UpdateAsync(Guid id, TipoProductoCreateUpdateDto tipoProductoCreateUpdateDto)
     {
-         var tipoProducto = await repository.GetByIdAsync(id);
+        var tipoProducto = await repository.GetByIdAsync(id);
         if (tipoProducto == null){
             throw new ArgumentException($"El tipo de producto con el: {id}, no existe");
         }
         else
-         
+    
         tipoProducto = mapper.Map<TipoProductoCreateUpdateDto,TipoProducto>(tipoProductoCreateUpdateDto, tipoProducto);
 
         await repository.UpdateAsync(tipoProducto);
