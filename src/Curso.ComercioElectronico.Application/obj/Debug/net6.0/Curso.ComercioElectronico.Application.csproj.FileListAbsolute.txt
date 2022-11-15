@@ -1,0 +1,34 @@
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Application.deps.json
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Application.dll
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Application.pdb
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Domain.dll
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Infraestructure.dll
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Domain.pdb
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Infraestructure.pdb
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.csproj.AssemblyReference.cache
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.GeneratedMSBuildEditorConfig.editorconfig
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.AssemblyInfoInputs.cache
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.AssemblyInfo.cs
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.csproj.CoreCompileInputs.cache
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.csproj.CopyComplete
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.dll
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/refint/Curso.ComercioElectronico.Application.dll
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.pdb
+c:/Users/Admin/Desktop/Trabajo/Trabajo Final/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/ref/Curso.ComercioElectronico.Application.dll
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Application.deps.json
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Application.dll
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Application.pdb
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Domain.dll
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Infraestructure.dll
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Domain.pdb
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/bin/Debug/net6.0/Curso.ComercioElectronico.Infraestructure.pdb
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.csproj.AssemblyReference.cache
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.AssemblyInfoInputs.cache
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.AssemblyInfo.cs
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.csproj.CoreCompileInputs.cache
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.csproj.CopyComplete
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.dll
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/refint/Curso.ComercioElectronico.Application.dll
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/Curso.ComercioElectronico.Application.pdb
+/Users/garytorres/Downloads/Curso.ComercioElectronico/src/Curso.ComercioElectronico.Application/obj/Debug/net6.0/ref/Curso.ComercioElectronico.Application.dll

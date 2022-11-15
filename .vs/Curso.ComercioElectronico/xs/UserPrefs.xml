@@ -1,0 +1,97 @@
+﻿<Properties StartupConfiguration="{CC90558A-866F-450A-A254-00CBA0161EC4}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.Curso.ComercioElectronico.HttpApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Curso.ComercioElectronico.HttpApi/appsettings.json">
+    <Files>
+      <File FileName="src/Curso.ComercioElectronico.Application/Mapeos/ConfiguracionesMapeoProfile.cs" Line="24" Column="42" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/Controllers/ClienteController.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/Controllers/MarcaController.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/Controllers/TipoProductoController.cs" Line="17" Column="5" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/TokenController.cs" Line="40" Column="93" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/Program.cs" Line="105" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/ProductoController.cs" Line="60" Column="36" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/JwtConfiguration.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/EntregaController.cs" Line="15" Column="6" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/CarritoController.cs" Line="41" Column="39" />
+      <File FileName="src/Curso.ComercioElectronico.HttpApi/appsettings.json" Line="22" Column="24" />
+      <File FileName="src/Curso.ComercioElectronico.Infraestructure/CarritoRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Infraestructure/ClienteRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Infraestructure/ComercioElectronicoDbContext.cs" Line="28" Column="54" />
+      <File FileName="src/Curso.ComercioElectronico.Infraestructure/EfRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Infraestructure/EntregaRepository.cs" Line="6" Column="51" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/Entrega.cs" Line="5" Column="14" />
+      <File FileName="src/Curso.ComercioElectronico.Infraestructure/MarcaRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Infraestructure/OrdenRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Infraestructure/ProductoRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Infraestructure/TipoProductoRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/TipoProducto.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/Producto.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/Orden.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/Marca.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/IUnitOfWork.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/IRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/ITipoProductoRepository.cs" Line="9" Column="5" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/IProductoRepository.cs" Line="9" Column="6" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/Cliente.cs" Line="23" Column="42" />
+      <File FileName="src/Curso.ComercioElectronico.Application/AppSetting.cs" Line="11" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/CancelarEntregaDto.cs" Line="10" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/CarritoAppService.cs" Line="77" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/CarritoCreateUpdateDto.cs" Line="27" Column="2" />
+      <File FileName="src/Curso.ComercioElectronico.Application/CarritoDto.cs" Line="55" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/ClienteAppService.cs" Line="114" Column="19" />
+      <File FileName="src/Curso.ComercioElectronico.Application/ApplicationServiceCollectionExtensions.cs" Line="24" Column="6" />
+      <File FileName="src/Curso.ComercioElectronico.Application/CancelarCarritoDto.cs" Line="10" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/ClienteCreateUpdateDto.cs" Line="15" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/ClienteDto.cs" Line="23" Column="42" />
+      <File FileName="src/Curso.ComercioElectronico.Application/EntregaAppService.cs" Line="69" Column="34" />
+      <File FileName="src/Curso.ComercioElectronico.Application/EntregaCreateUpdateDto.cs" Line="23" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/EntregaDto.cs" Line="33" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/ICarritoAppService.cs" Line="16" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/IClienteAppService.cs" Line="17" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/IEntregaAppService.cs" Line="16" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/IMarcaAppService.cs" Line="18" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/IOrdenAppService.cs" Line="13" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/IProductoAppService.cs" Line="19" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/ITipoProductoAppService.cs" Line="14" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/MarcaAppService.cs" Line="65" Column="41" />
+      <File FileName="src/Curso.ComercioElectronico.Application/MarcaCreateUpdateDto.cs" Line="16" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Application/MarcaDto.cs" Line="27" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Infraestructure/InfraestructureServiceCollectionExtensions.cs" Line="22" Column="2" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/DominioConstantes.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/ICarritoRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Curso.ComercioElectronico.Domain/IOrdenRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Curso.ComercioElectronico" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Curso.ComercioElectronico.Application" expanded="True">
+                <Node name="Mapeos" expanded="True" />
+              </Node>
+              <Node name="Curso.ComercioElectronico.Domain" expanded="True" />
+              <Node name="Curso.ComercioElectronico.HttpApi" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="Controllers" expanded="True" />
+                <Node name="appsettings.json" selected="True" />
+              </Node>
+              <Node name="Curso.ComercioElectronico.Infraestructure" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
